@@ -1,0 +1,6 @@
+<menus>
+  <menu label="Mode">
+    <setting label="Audio Control"></setting>
+    <setting label="Light Control"></setting>
+  </menu>
+</menus>
