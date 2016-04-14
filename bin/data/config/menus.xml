@@ -1,6 +1,17 @@
 <menus>
-  <menu label="Mode">
-    <setting label="Audio Control"></setting>
+  <menu label="Mode" class="" >
+    <setting label="Audio Control" data-method="audioControl"></setting>
     <setting label="Light Control"></setting>
+  </menu>
+  <directory label="Music" data-path="music/"></directory>
+  <menu label="Configure">
+    <menu label="Wireless">
+      <setting label="Broadcast"></setting>
+      <setting label="P2P"></setting>
+    </menu>
+    <menu label="Audio Latency">
+      <setting label="Heads"></setting>
+      <setting label="Bar"></setting>
+    </menu>
   </menu>
 </menus>
