@@ -2,9 +2,15 @@
 #include "ofApp.h"
 #include "ofAppNoWindow.h"
 
-int main( ){
-	ofAppNoWindow w;
-	ofSetupOpenGL(&w, 1024,768, OF_WINDOW);
-	ofRunApp( new ofApp());
+//#define OF_HEADLESS 1
 
+int main( ){
+  #ifdef OF_HEADLESS
+    ofAppNoWindow w;
+    ofSetupOpenGL(&w, 128, 128, OF_WINDOW);
+  #else
+    ofSetupOpenGL(128, 128, OF_WINDOW);
+  #endif
+
+  ofRunApp( new ofApp());
 }

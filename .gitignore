@@ -1,0 +1,15 @@
+/bin/BMBassHead.app/Contents/Info.plist
+/bin/BMBassHead.app/Contents/MacOS/BMBassHead
+/bin/BMBassHead.app/Contents/MacOS/libfmodex.dylib
+/obj/osx/Release/.compiler_flags
+/obj/osx/Release/src/MainView.d
+/obj/osx/Release/src/MainView.o
+/obj/osx/Release/src/MenuView.d
+/obj/osx/Release/src/MenuView.o
+/obj/osx/Release/src/Views/MainView.d
+/obj/osx/Release/src/Views/MenuView.d
+/obj/osx/Release/src/Views/MenuView.o
+/obj/osx/Release/src/main.d
+/obj/osx/Release/src/main.o
+/obj/osx/Release/src/ofApp.d
+/obj/osx/Release/src/ofApp.o

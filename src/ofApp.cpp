@@ -2,17 +2,17 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-  ofLog() << "BassBar";
+  loadSettings();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
+  mainView.update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+  mainView.draw();
 }
 
 //--------------------------------------------------------------
@@ -25,47 +25,8 @@ void ofApp::keyReleased(int key){
 
 }
 
-//--------------------------------------------------------------
-void ofApp::mouseMoved(int x, int y){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::mouseDragged(int x, int y, int button){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::mousePressed(int x, int y, int button){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::mouseReleased(int x, int y, int button){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::mouseEntered(int x, int y){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::mouseExited(int x, int y){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::windowResized(int w, int h){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::gotMessage(ofMessage msg){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::dragEvent(ofDragInfo dragInfo){ 
-
+void ofApp::loadSettings() {
+  settings.loadFile("config/settings.xml");
+  string id = settings.getValue("settings:id", "BH");
+  ofLog() << id;
 }

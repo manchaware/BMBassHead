@@ -1,5 +1,5 @@
-<menus>
-  <menu label="Mode" class="" >
+<menus class="Menu">
+  <menu label="Mode" class="Mode">
     <setting label="Audio Control" data-method="audioControl"></setting>
     <setting label="Light Control"></setting>
   </menu>
