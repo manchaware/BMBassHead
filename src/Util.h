@@ -10,7 +10,7 @@
 #define _Util_H
 
 #include "ofApp.h"
-#include <string>
+#include <string.h>
 
 class Util {
 public:
