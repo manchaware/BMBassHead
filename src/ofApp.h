@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-//#include "MainView.h"
+#include "MenuView.h"
 //#include "Globals.h"
 
 class ofApp : public ofBaseApp {
@@ -14,7 +14,7 @@ public:
   void keyReleased(int key);
 
 private:
-  //MainView mainView;
+  MenuView menuView;
 
   //Globals globals;
 };

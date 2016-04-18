@@ -5,17 +5,17 @@
 void ofApp::setup(){
   //globals.load();
 
-  //mainView.load(globals);
+  menuView.init();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-  //mainView.update();
+  menuView.update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-  //mainView.draw();
+  menuView.draw();
 }
 
 //--------------------------------------------------------------
