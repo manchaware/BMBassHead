@@ -1,21 +1,21 @@
 #include "ofApp.h"
-#include "Globals.h"
+//#include "Globals.h"
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-  globals.load();
+  //globals.load();
 
-  mainView.load(globals);
+  //mainView.load(globals);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-  mainView.update();
+  //mainView.update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-  mainView.draw();
+  //mainView.draw();
 }
 
 //--------------------------------------------------------------

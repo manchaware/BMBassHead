@@ -1,8 +1,8 @@
 #pragma once
 
 #include "ofMain.h"
-#include "MainView.h"
-#include "Globals.h"
+//#include "MainView.h"
+//#include "Globals.h"
 
 class ofApp : public ofBaseApp {
 public:
@@ -14,7 +14,7 @@ public:
   void keyReleased(int key);
 
 private:
-  MainView mainView;
+  //MainView mainView;
 
-  Globals globals;
+  //Globals globals;
 };
