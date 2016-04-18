@@ -1,3 +1,6 @@
 <settings>
   <id>BH-0</id>
+  <serialXbee></serialXbee>
+  <serialBluetooth></serialBluetooth>
+  <primaryColor>0x0672c9</primaryColor>
 </settings>

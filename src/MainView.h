@@ -9,11 +9,16 @@
 #ifndef MainView_h
 #define MainView_h
 
-class MainView{
+#include "BMView.h"
+#include "Globals.h"
+#include <map>
+
+class MainView : public BMView {
 public:
     MainView();
-    void update();
+
     void draw();
+    void update();
 };
 
 #endif /* MainView_h */

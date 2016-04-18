@@ -1,8 +1,11 @@
 #include "ofApp.h"
+#include "Globals.h"
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-  loadSettings();
+  globals.load();
+
+  mainView.load(globals);
 }
 
 //--------------------------------------------------------------
@@ -23,10 +26,4 @@ void ofApp::keyPressed(int key){
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
 
-}
-
-void ofApp::loadSettings() {
-  settings.loadFile("config/settings.xml");
-  string id = settings.getValue("settings:id", "BH");
-  ofLog() << id;
 }
